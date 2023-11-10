@@ -1,4 +1,4 @@
-_extends: "rocket-web-dmmtv:.github/release-drafter.yml"
+_extends: "next-release-drafter:.github/release-drafter.yml"
 name-template: "prd-v$NEXT_PATCH_VERSION 📺"
 tag-template: "prd-v$NEXT_PATCH_VERSION"
 tag-prefix: "prd-v"

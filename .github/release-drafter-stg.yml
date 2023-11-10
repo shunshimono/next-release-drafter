@@ -1,4 +1,4 @@
-_extends: "rocket-web-dmmtv:.github/release-drafter.yml"
+_extends: "next-release-drafter:.github/release-drafter.yml"
 name-template: "stg-v$RESOLVED_VERSION 🚧"
 tag-template: "stg-v$RESOLVED_VERSION"
 tag-prefix: "stg-v"

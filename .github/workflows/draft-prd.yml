@@ -1,4 +1,4 @@
-name: Release Drafter
+name: Prd Release Drafter
 
 on:
   push:

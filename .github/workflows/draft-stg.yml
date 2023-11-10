@@ -1,4 +1,4 @@
-name: Release Drafter
+name: Stg Release Drafter
 
 on:
   push:
