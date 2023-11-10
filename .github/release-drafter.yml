@@ -13,7 +13,8 @@ categories:
   - title: '🧰 Maintenance'
     label: 'chore'
 change-template: '- $TITLE @$AUTHOR (#$NUMBER)'
-change-title-escapes: '\<*_&' # You can add # and @ to disable mentions, and add ` to disable code blocks.
+change-title-escapes: '\<*_&' 
+# PRにmajor or minor or patch のラベルを利用することで、自動生成されるtagのversionを変更できる
 version-resolver:
   major:
     labels:
