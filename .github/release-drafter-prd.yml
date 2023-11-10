@@ -1,4 +1,10 @@
 _extends: "next-release-drafter:.github/release-drafter.yml"
-name-template: "prd-v$NEXT_PATCH_VERSION 📺"
-tag-template: "prd-v$NEXT_PATCH_VERSION"
+name-template: "prd-v$RESOLVED_VERSION 📺"
+tag-template: "prd-v$RESOLVED_VERSION"
 tag-prefix: "prd-v"
+template: |
+  ## What’s Changed
+
+  $CHANGES
+
+  **Full Changelog**: https://github.com/$OWNER/$REPOSITORY/compare/$PREVIOUS_TAG...prd-v$RESOLVED_VERSION

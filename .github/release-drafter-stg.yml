@@ -2,3 +2,9 @@ _extends: "next-release-drafter:.github/release-drafter.yml"
 name-template: "stg-v$RESOLVED_VERSION 🚧"
 tag-template: "stg-v$RESOLVED_VERSION"
 tag-prefix: "stg-v"
+template: |
+  ## What’s Changed
+
+  $CHANGES
+
+  **Full Changelog**: https://github.com/$OWNER/$REPOSITORY/compare/$PREVIOUS_TAG...stg-v$RESOLVED_VERSION
