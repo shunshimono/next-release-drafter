@@ -1,7 +1,7 @@
 name-template: 'v$RESOLVED_VERSION 🌈'
 tag-template: 'v$RESOLVED_VERSION'
 change-template: '- $TITLE @$AUTHOR (#$NUMBER)'
-change-title-escapes: '\<*_&' 
+change-title-escapes: '' 
 
 # PRにmajor or minor or patch のラベルを利用することで、自動生成されるtagのversionを変更できる
 version-resolver:
