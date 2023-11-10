@@ -30,6 +30,10 @@ template: |
   ## Changes
 
   $CHANGES
+  $CONTRIBUTORS
+  $PREVIOUS_TAG
+  $REPOSITORY
+  $OWNER
 autolabeler:
   - label: 'chore'
     files:
@@ -47,3 +51,4 @@ autolabeler:
     body:
       - '/JIRA-[0-9]{1,4}/'
 commitish: main
+filter-by-commitish: true
