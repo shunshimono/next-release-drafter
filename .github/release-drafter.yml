@@ -1,19 +1,8 @@
 name-template: 'v$RESOLVED_VERSION 🌈'
 tag-template: 'v$RESOLVED_VERSION'
-categories:
-  - title: '🚀 Features'
-    labels:
-      - 'feature'
-      - 'enhancement'
-  - title: '🐛 Bug Fixes'
-    labels:
-      - 'fix'
-      - 'bugfix'
-      - 'bug'
-  - title: '🧰 Maintenance'
-    label: 'chore'
 change-template: '- $TITLE @$AUTHOR (#$NUMBER)'
 change-title-escapes: '\<*_&' 
+
 # PRにmajor or minor or patch のラベルを利用することで、自動生成されるtagのversionを変更できる
 version-resolver:
   major:
@@ -30,22 +19,3 @@ template: |
   ## Changes
 
   **Full Changelog**: https://github.com/$OWNER/$REPOSITORY/compare/$PREVIOUS_TAG...v$RESOLVED_VERSION
-  
-autolabeler:
-  - label: 'chore'
-    files:
-      - '*.md'
-    branch:
-      - '/docs{0,1}\/.+/'
-  - label: 'bug'
-    branch:
-      - '/fix\/.+/'
-    title:
-      - '/fix/i'
-  - label: 'enhancement'
-    branch:
-      - '/feature\/.+/'
-    body:
-      - '/JIRA-[0-9]{1,4}/'
-commitish: main
-filter-by-commitish: true
