@@ -7,4 +7,6 @@ template: |
 
   $CHANGES
 
-  **Full Changelog**: https://github.com/$OWNER/$REPOSITORY/compare/$PREVIOUS_TAG...prd
+  **Full Changelog**: 
+  https://github.com/$OWNER/$REPOSITORY/compare/$PREVIOUS_TAG...feature/prd
+  https://github.com/$OWNER/$REPOSITORY/compare/$PREVIOUS_TAG...prd-v$RESOLVED_VERSION
